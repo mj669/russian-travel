@@ -9,14 +9,12 @@
 @media screen and (max-width: 1024px) {
     .header {
         max-width: 928px;
-        max-width: 90%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .header {
         max-width: 720px;
-        max-width: 90%;
     }
 }
 
@@ -24,14 +22,11 @@
     .header {
         max-width: 386px;
         min-height: 58px;
-        max-width: 90%;
     }
 }
 
 @media screen and (max-width: 320px) {
     .header {
         max-width: 288px;
-        min-height: 58px;
-        max-width: 90%;
     }
 }
