@@ -1,8 +1,4 @@
 .header__lang-link {
-    margin-right: 18px;
-    max-width: 30px;
-    height: 28px;
-    font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
@@ -13,10 +9,12 @@
     color: inherit;
 }
 
-.header__lang-link:last-child {
-    margin: 0;
-}
-
 .header__lang-link:hover {
     opacity: .8;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        font-size: 18px;
+    }
 }

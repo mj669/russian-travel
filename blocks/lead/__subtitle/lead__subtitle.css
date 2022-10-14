@@ -16,17 +16,7 @@
 
 @media screen and (max-width: 768px) {
     .lead__subtitle {
-        font-weight: 400;
-        font-size: calc( (100vw - 425px)/(768 - 425) * (30 - 18) + 18px);
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .lead__subtitle {
-        max-width: 386px;
-        font-size: 18px;
-        line-height: 20px;
-        padding-bottom: 40px;
+        font-size: calc( (100vw - 320px)/(768 - 320) * (30 - 18) + 18px);
     }
 }
 
@@ -34,5 +24,7 @@
     .lead__subtitle {
         max-width: 288px;
         font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 40px;
     }
 }

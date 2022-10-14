@@ -7,20 +7,17 @@
     margin: 0 0 32px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
     .cover__title {
-        max-width: 386px;
-        font-weight: 900;
-        font-size: 32px;
-        line-height: 35px;
+        font-size: calc( (100vw - 320px)/(768 - 320) * (72 - 32) + 32px);
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover__title {
-        max-width: 288px;
-        font-weight: 900;
+        max-width: 255px;
         font-size: 32px;
         line-height: 35px;
+        margin: 0 0 16px;
     }
 }

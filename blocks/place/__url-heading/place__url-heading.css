@@ -5,18 +5,13 @@
     font-size: 12px;
     line-height: 12px;
     letter-spacing: 2px;
+    text-transform: uppercase;
     color: #AAAAAA;
 }
 
 @media screen and (max-width: 768px) {
     .place__url-heading {
         max-width: 340px;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .place__url-heading {
-        max-width: 386px;
     }
 }
 
